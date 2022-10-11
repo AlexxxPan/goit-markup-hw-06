@@ -60,8 +60,30 @@
         <div class="backdrop is-hidden" data-modal>
 <div class="backdrop">
             <div class="modal">
-                <div role="group" class="group">
-                    <p>Залиште свої дані, ми вам передзвонимо</p>
+<form class="form">
+<div role="groupe-modal-field">
+<h2 class="modal-form-title">Залиште свої дані, ми вам передзвонимо</h2>
+<div class="modal-form-field">
+<label for="name">Ім'я</label>
+<input type="text" name="name" id="name" placeholder="">
+</div>
+<div class="modal-form-field">
+    <label for="tel">Телефон</label>
+    <input type="text" name="tel" id="tel" placeholder="">
+    </div>
+    <div class="modal-form-field">
+        <label for="mail">Пошта</label>
+        <input type="email" name="mail" id="mail" placeholder="">
+        </div>
+        <div class="modal-form-field">
+            <label for="comment">Коментар</label>
+            <textarea name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
+            </div>
+            
+            <input type="checkbox" name="policy" id="policy">
+            <label for="policy">Погоджуюся з розсилкою та приймаю <a class= "policy" href="./index.html">Умови договору</a></label>
+            <button class="form-submit-btn" type="submit">Відправити</button>
+    </form>
                     <button class="btn-close-modal" data-modal-close>
                         <svg class="modal-close-icon" width="11" height="11">
                         <use href="./images/icons.svg#icon-close">
