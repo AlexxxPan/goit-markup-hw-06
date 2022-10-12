@@ -761,7 +761,7 @@ line-height: 20px;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em; 
-color: color: rgba(255, 255, 255, 0.6);
+color: rgba(255, 255, 255, 0.6);
 }
 
 .form-field input {
